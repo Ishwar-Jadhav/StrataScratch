@@ -17,3 +17,4 @@ WITH cte AS (
     SELECT company_id, user_id, rnk
     FROM cte
     WHERE rnk <= 2;
+    print("1")
